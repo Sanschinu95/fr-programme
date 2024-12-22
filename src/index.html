@@ -9,10 +9,12 @@
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="navbar.css">
   <link rel="stylesheet" href="gallery.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 <body>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="navbar.js"></script>
 
 
   <main>
@@ -22,10 +24,10 @@
       <ul id="nav-links-mobile">
           <li><a href="#">HOME</a></li>
           <li><a href="#about">ABOUT US</a></li>
-          <li><a href="#events">EVENTS</a></li>
-          <li><a href="#speakers">SPEAKERS</a></li>
-          <li><a href="#schedule">SCHEDULE</a></li>
-          <li><a href="#why-attend">WHY ATTEND?</a></li>
+          <li><a href="#why-fr">WHY FR?</a></li>
+          <li><a href="#registration-area">REGISTRATION</a></li>
+          <li><a href="#event-gallery">GALLERY</a></li>
+          
       </ul>
   </div>
     <nav>
@@ -36,8 +38,8 @@
       <ul id="nav-links-desktop">
           <li><a href="#">HOME</a></li>
           <li><a href="#about">ABOUT US</a></li>
-          <li><a href="#events">EVENTS</a></li>
-          <li><a href="#speakers">SPEAKERS</a></li>
+          <li><a href="#why-fr">WHY FR?</a></li>
+          <li><a href="#registration-area">REGISTRATION</a></li>
           <li><a href="#contact" class="contact-us-nav w-min h-min px-4 py-2 bg-[#9C1606] text-white transition-colors">CONTACT US</a></li>
       </ul>
 
@@ -159,9 +161,9 @@
         <div class="text-center mb-10">
           <h2 class="text-4xl font-extrabold mb-2 relative">
         <span class="z-10 relative">Why Choose FR?</span>
-        <div class="absolute top-1/2 left-0 w-full h-1 bg-purple-500 transform -translate-y-1/2"></div>
+        
           </h2>
-        <p class="text-gray-300 text-lg">Discover the journey, growth, and fun at E-Cell!</p>
+        <p class="text-blacktext-lg">Discover the journey, growth, and fun at E-Cell!</p>
         </div>
 
           <!-- Cards Container -->
@@ -180,7 +182,7 @@
               </p>
             </div>
             <!-- Card 2 -->
-            <div
+            <div 
               class="why-reasons flex flex-col items-start p-6 bg-transparent rounded-lg shadow-xl transform hover:-translate-y-2 hover:bg-yellow-500 transition duration-300"
             >
               <div class="text-purple-400 text-5xl mb-4"></div>
@@ -253,32 +255,38 @@
             <div class="slider-track">
               <img src="../assets/eventgallery/1.jpg" alt="Image 1">
               <img src="../assets/eventgallery/2.jpg" alt="Image 2">
-              <img src="../assets/eventgallery/3.png" alt="Image 3">
-              <img src="../assets/eventgallery/4.png" alt="Image 4"> 
-              <img src="../assets/eventgallery/5.png" alt="Image 5">
-              <img src="../assets/eventgallery/6.png" alt="Image 6">
-              <img src="../assets/eventgallery/7.png" alt="Image 7">
-              <img src="../assets/eventgallery/8.png" alt="Image 8">
+              <img src="../assets/eventgallery/3.jpg" alt="Image 3">
+              <img src="../assets/eventgallery/4.jpg" alt="Image 4"> 
+              <img src="../assets/eventgallery/5.jpg" alt="Image 5">
+              <img src="../assets/eventgallery/6.jpg" alt="Image 6">
+              <img src="../assets/eventgallery/7.jpg" alt="Image 7">
+              <img src="../assets/eventgallery/8.jpg" alt="Image 8">
+              <img src="../assets/eventgallery/9.jpg" alt="Image 7">
+              <img src="../assets/eventgallery/10.jpg" alt="Image 8">
                
               <!-- For Infinite Effect -->
               <img src="../assets/eventgallery/1.jpg" alt="Image 1">
               <img src="../assets/eventgallery/2.jpg" alt="Image 2">
-              <img src="../assets/eventgallery/3.png" alt="Image 3">
-              <img src="../assets/eventgallery/4.png" alt="Image 4"> 
-              <img src="../assets/eventgallery/5.png" alt="Image 5">
-              <img src="../assets/eventgallery/6.png" alt="Image 6">
-              <img src="../assets/eventgallery/7.png" alt="Image 7">
-              <img src="../assets/eventgallery/8.png" alt="Image 8">
+              <img src="../assets/eventgallery/3.jpg" alt="Image 3">
+              <img src="../assets/eventgallery/4.jpg" alt="Image 4"> 
+              <img src="../assets/eventgallery/5.jpg" alt="Image 5">
+              <img src="../assets/eventgallery/6.jpg" alt="Image 6">
+              <img src="../assets/eventgallery/7.jpg" alt="Image 7">
+              <img src="../assets/eventgallery/8.jpg" alt="Image 8">
+              <img src="../assets/eventgallery/9.jpg" alt="Image 7">
+              <img src="../assets/eventgallery/10.jpg" alt="Image 8">
               
               <!-- Duplicate for seamless loop -->
               <img src="../assets/eventgallery/1.jpg" alt="Image 1">
               <img src="../assets/eventgallery/2.jpg" alt="Image 2">
-              <img src="../assets/eventgallery/3.png" alt="Image 3">
-              <img src="../assets/eventgallery/4.png" alt="Image 4"> 
-              <img src="../assets/eventgallery/5.png" alt="Image 5">
-              <img src="../assets/eventgallery/6.png" alt="Image 6">
-              <img src="../assets/eventgallery/7.png" alt="Image 7">
-              <img src="../assets/eventgallery/8.png" alt="Image 8">
+              <img src="../assets/eventgallery/3.jpg" alt="Image 3">
+              <img src="../assets/eventgallery/4.jpg" alt="Image 4"> 
+              <img src="../assets/eventgallery/5.jpg" alt="Image 5">
+              <img src="../assets/eventgallery/6.jpg" alt="Image 6">
+              <img src="../assets/eventgallery/7.jpg" alt="Image 7">
+              <img src="../assets/eventgallery/8.jpg" alt="Image 8">
+              <img src="../assets/eventgallery/9.jpg" alt="Image 7">
+              <img src="../assets/eventgallery/10.jpg" alt="Image 8">
             </div>
         
             
@@ -472,5 +480,7 @@
     </section>
     <!--FOOTER ENDS HERE-->
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
   </body>
 </html>
