@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#registration-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#registration-form{
+    height: 100%;
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    
+    /* h1{
+        margin-bottom: 2.5rem;
+    } */
+
+    p{
+        color: #656565;
+        font-weight:light;
+        align-self: flex-start;
+        a {
+            color: #005FED;
+            text-decoration: underline;
+        }
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        #clg-details{
+            width: 100%;
+        }
+    
+    }
+
+
+
+    & .inp-element{
+        min-width: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        height: 3.5rem;
+        width: 100%;
+        background-color: white;
+        padding: 0rem 1.75rem;
+        border: 2px solid #7B2C2D;
+        border-radius: 0.75rem;
+
+        label{
+            svg {
+                color:#489FB5;
+                width: 1.5rem;
+                height: 100%;
+            }
+        }
+
+
+        input{
+            font-size: 1.06rem;
+            padding: 1rem;
+            border: none;
+            width: 100%;
+            height: 100%;
+            &::placeholder{
+                color: #9F9F9F;
+                font-size: 1.06rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            &:focus,&:active{
+                border: none;
+                outline: none;
+            }
+        }
+    }
+    .submit-form-btn{
+        padding: 0.8rem 2.5rem;
+        border: none;
+        border-radius: 0.35rem;
+        background-color: #7B2C2D;
+        color: white;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        cursor: pointer;
+        font-size: 1rem;
+    }
+
+}
+
+#clg-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#reg-head{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: inter;
+    margin-bottom:1rem ;
+}
+
+#past-experience{
+    
+    padding: 1rem;
+    word-break: break-all;
+}
