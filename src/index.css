@@ -32,7 +32,7 @@
     font-family: Benguiat;
     z-index: 1; 
     overflow: hidden; 
-    opacity: 0.28;
+    
 }
 
 #hero-section::before {
