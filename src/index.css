@@ -24,7 +24,7 @@
     align-items: center;
     justify-content: center;
     color: white;
-    background-image: url(../assets/hero1.png); 
+    background-image: url(../assets/bg_hero.jpg); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -32,21 +32,25 @@
     font-family: Benguiat;
     z-index: 1; 
     overflow: hidden; 
+    opacity: 0.28;
 }
 
 #hero-section::before {
+    /* opacity: 0.78;  */
+    background-color: black;
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../assets/hero1.png);
+    background-image: url(../assets/bg_hero.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    filter: blur(1px); 
-    z-index: -1; 
+    filter: blur(5px);
+    z-index: -1;
+   
 }
 
 
@@ -57,15 +61,18 @@
   
 }
 
+#continuous_bgd{
+    background-image: url(../assets/bg_aboutus.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
+}
 
 #about-us {
     position: relative; /* Ensures the pseudo-element aligns properly */
     color: white; /* Text color for better readability */
-    background-image: url(../assets/abt.png); /* Fallback for the background image */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    
     min-height: 100vh; /* Full viewport height */
     padding-top: 2rem; /* Adds spacing from the hero section */
     overflow: hidden; /* Prevents overflow issues with the pseudo-element */
@@ -79,10 +86,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../assets/abt.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    
     /* filter: blur(5px); Adjust the intensity as needed */
     z-index: -1; /* Pushes the blurred image behind the content */
 }
@@ -94,9 +98,12 @@
     letter-spacing: 0.051rem;
 }
 
-#why-fr{
-    background-image: url(../assets/whywall.jpg);
+.why-reasons{
+    backdrop-filter: blur(6px);
+    border: 0.001px solid white;
 }
+
+
 #registration-area{
     display: flex;
     justify-content: center;
