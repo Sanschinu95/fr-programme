@@ -12,7 +12,7 @@
     width: 100%;
     max-width: 100%;
     overflow: hidden; 
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,1);
     padding: 30px;
     position: relative;
   }
