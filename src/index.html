@@ -6,12 +6,46 @@
   <link href="./output.css" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="gallery.css">
 </head>
 <body>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 
   <main>
+
+    <!-- Navigation Starts -->
+    <div id="mobile-menu">
+      <ul id="nav-links-mobile">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#about">ABOUT US</a></li>
+          <li><a href="#events">EVENTS</a></li>
+          <li><a href="#speakers">SPEAKERS</a></li>
+          <li><a href="#schedule">SCHEDULE</a></li>
+          <li><a href="#why-attend">WHY ATTEND?</a></li>
+      </ul>
+  </div>
+    <nav>
+      <span id="navlogo">
+          <img src="./assets/esummit-logo.svg" alt="E-SUMMIT '25 logo">
+      </span>
+
+      <ul id="nav-links-desktop">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#about">ABOUT US</a></li>
+          <li><a href="#events">EVENTS</a></li>
+          <li><a href="#speakers">SPEAKERS</a></li>
+          <li><a href="#contact" class="contact-us-nav w-min h-min px-4 py-2 bg-[#9C1606] text-white transition-colors">CONTACT US</a></li>
+      </ul>
+
+      <div id="hamburger-menu">
+          <div class="hb-line"></div>
+          <div class="hb-line"></div>
+          <div class="hb-line"></div>
+      </div>
+
+  </nav>
 
     <!-- Hero Section Starts -->
     <section id="hero-section">
@@ -131,7 +165,7 @@
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- Card 1 -->
             <div
-              class="flex flex-col items-start p-6 bg-gray-800 rounded-lg shadow-xl transform hover:-translate-y-2 hover:bg-red-700 transition duration-300"
+              class="flex flex-col items-start p-6 bg-transparent rounded-lg shadow-xl transform hover:-translate-y-2 hover:bg-red-700 transition duration-300"
             >
               <div class="text-purple-400 text-5xl mb-4"></div>
               <h3 class="text-2xl font-semibold mb-3">
@@ -144,7 +178,7 @@
             </div>
             <!-- Card 2 -->
             <div
-              class="flex flex-col items-start p-6 bg-gray-800 rounded-lg shadow-xl transform hover:-translate-y-2 hover:bg-yellow-500 transition duration-300"
+              class="flex flex-col items-start p-6 bg-transparent rounded-lg shadow-xl transform hover:-translate-y-2 hover:bg-yellow-500 transition duration-300"
             >
               <div class="text-purple-400 text-5xl mb-4"></div>
               <h3 class="text-2xl font-semibold mb-3">
@@ -156,17 +190,17 @@
             </div>
             <!-- Card 3 -->
             <div
-              class="flex flex-col items-start p-6 bg-gray-800 rounded-lg shadow-xl transform hover:-translate-y-2 hover:bg-pink-600 transition duration-300"
+              class="flex flex-col items-start p-6 bg-transparent rounded-lg shadow-xl transform hover:-translate-y-2 hover:bg-pink-600 transition duration-300"
             >
               <div class="text-purple-400 text-5xl mb-4"></div>
               <h3 class="text-2xl font-semibold mb-3">Event Management</h3>
               <p class="text-gray-300">
-                Get hands-on experience by organizing impactful events.
+                Get hands-on experience by organizing <strong>Central India's largest Fest</strong>.
               </p>
             </div>
             <!-- Card 4 -->
             <div
-              class="flex flex-col items-start p-6 bg-gray-800 rounded-lg shadow-xl transform hover:-translate-y-2 hover:bg-purple-700 transition duration-300"
+              class="flex flex-col items-start p-6 bg-transparent rounded-lg shadow-xl transform hover:-translate-y-2 hover:bg-purple-700 transition duration-300"
             >
               <div class="text-purple-400 text-5xl mb-4"></div>
               <h3 class="text-2xl font-semibold mb-3">Interview Prep</h3>
@@ -178,7 +212,7 @@
             <div
               class="flex flex-col items-start p-6 bg-transparent rounded-lg shadow-xl hover:-translate-y-2 hover:bg-blue-700 transition duration-300"
             >
-              <div class="text-purple-400 text-5xl mb-4"></div>
+              <div class="text-black text-5xl mb-4 hover:text-white"></div>
               <h3 class="text-2xl font-semibold mb-3">
                 Parties & Celebrations
               </h3>
@@ -189,7 +223,7 @@
             </div>
             <!-- Card 6 -->
             <div
-              class="flex flex-col items-start p-6 bg-gray-800 rounded-lg shadow-xl transform hover:-translate-y-2 hover:bg-green-700 transition duration-300"
+              class="flex flex-col items-start p-6 bg-transparent rounded-lg shadow-xl transform hover:-translate-y-2 hover:bg-green-700 transition duration-300"
             >
               <div class="text-purple-400 text-5xl mb-4"></div>
               <h3 class="text-2xl font-semibold mb-3">Learn from Experts</h3>
@@ -202,6 +236,54 @@
       </section>
 
       <!-- What and Why Section Ends -->
+
+      <!-- Event Gallery Starts -->
+
+      <section id="event-gallery">
+        <div class="gallery-heading">Event Gallery</div>
+        
+        <section>
+        <div class="slider-container">
+            
+        
+            <div class="slider-track">
+              <img src="assets/eventgallery/1.jpg" alt="Image 1">
+              <img src="assets\eventgallery\2.jpg" alt="Image 2">
+              <img src="assets\eventgallery\3.png" alt="Image 3">
+              <img src="assets\eventgallery\4.png" alt="Image 4"> 
+              <img src="assets\eventgallery\5.png" alt="Image 5">
+              <img src="assets\eventgallery\6.png" alt="Image 6">
+              <img src="assets\eventgallery\7.png" alt="Image 7">
+              <img src="assets\eventgallery\8.png" alt="Image 8">
+               
+              <!-- For Infinite Effect -->
+              <img src="assets\eventgallery\1.png" alt="Image 1">
+              <img src="assets\eventgallery\2.png" alt="Image 2">
+              <img src="assets\eventgallery\3.png" alt="Image 3">
+              <img src="assets\eventgallery\4.png" alt="Image 4"> 
+              <img src="assets\eventgallery\5.png" alt="Image 5">
+              <img src="assets\eventgallery\6.png" alt="Image 6">
+              <img src="assets\eventgallery\7.png" alt="Image 7">
+              <img src="assets\eventgallery\8.png" alt="Image 8">
+              
+              <!-- Duplicate for seamless loop -->
+              <img src="assets\eventgallery\1.png" alt="Image 1">
+              <img src="assets\eventgallery\2.png" alt="Image 2">
+              <img src="assets\eventgallery\3.png" alt="Image 3">
+              <img src="assets\eventgallery\4.png" alt="Image 4"> 
+              <img src="assets\eventgallery\5.png" alt="Image 5">
+              <img src="assets\eventgallery\6.png" alt="Image 6">
+              <img src="assets\eventgallery\7.png" alt="Image 7">
+              <img src="assets\eventgallery\8.png" alt="Image 8">
+            </div>
+        
+            
+          </div>
+        </section>
+    </section>
+</section>
+
+      <!-- Event Gallery Ends -->
 
       <!--Registration-form -->
       <section id="registration-area">
