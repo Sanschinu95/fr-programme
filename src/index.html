@@ -4,11 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
-  <link
-  rel="stylesheet"
-  href="https://unpkg.com/swiper/swiper-bundle.min.css"
-/>
-
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -17,11 +14,11 @@
   <main>
 
     <!-- Hero Section Starts -->
-    <section class="bg-[url('E:/E-Summit'25/FR/assets/hero1.png')] bg-cover bg-center bg-no-repeat  text-white min-h-screen flex items-center justify-center">
-        <div class="container mx-auto px-6 text-center">
+    <section id="hero-section">
+        <div class="container-hero mx-auto px-6 text-center">
           <!-- Title -->
           <h1
-            class="text-4xl md:text-6xl font-bold mb-4 text-red-700 glowing-text"
+            class="text-4xl md:text-6xl font-bold mb-4 text-red-700 glowing-text z-10 font-Benguiat "
           >
             Fresher Represenatative
           </h1>
@@ -50,7 +47,7 @@
       <!-- Hero Section Ends -->
 
       <!-- About Us Section Starts -->
-      <section id="about-us" class="bg-[url('assets/abt.png')] bg-cover bg-center bg-no-repeat text-white py-16">
+      <section id="about-us" class=" bg-cover bg-center bg-no-repeat text-white py-16">
         <div class="container mx-auto px-6">
           <!-- Heading -->
           <h2
@@ -77,7 +74,7 @@
             </div>
 
             <!-- Text Content -->
-            <div class="w-full md:w-1/2 text-gray-300 space-y-6">
+            <div class=" w-full md:w-1/2 text-gray-300 space-y-6 about-us-text">
               <p>
                 <strong>Entrepreneurship Cell NIT-Bhopal (MANIT)</strong> is a
                 voluntary organization dedicated to encouraging a thriving
@@ -119,7 +116,7 @@
 
 
       <!-- why-fr        -->
-      <section id="why-fr" class="bg-[url('assets/whywall.jpg')] bg-cover bg-center bg-no-repeat text-white py-16">
+      <section id="why-fr" class=" bg-cover bg-center bg-no-repeat text-white py-16">
   <div class="max-w-7xl mx-auto px-6 lg:px-8">
     <!-- Heading with Decorative Line -->
     <div class="text-center mb-10">
@@ -274,6 +271,116 @@
             </form>
         </div>
       </section>
+      <!--REGISTRATION FROM ENDS HERE-->
+
+      <!--FOOTER-->
+      <section id="footer" class="footer">
+    
+        <div id="contact" class="footer-one">
+              <h2 class="footer-head footer-one-head">Contact Us</h2>
+              <div class="footer-one-contacts">
+                  <div class="footer-contact-element contact-element-one">
+                      <img class="contact-element-image" src="../assets/footer/call (2).svg" alt="Call Icon">
+                      <div class="contact-element-text"><a href="tel:+916265872942" style="color:#B5B5B6;"> Khushi Verma: +916265872942</a></div>
+                      
+                  </div>
+                  <div class="footer-contact-element contact-element-two">
+                      <img class="contact-element-image" src="../assets/footer/call (2).svg" alt="Email Icon">
+                      <div class="contact-element-text"><a href="tel:+917649803008" style="color:#B5B5B6;">Samar Singh: +917649803008  </a></div>
+                  </div>
+                  <div class="footer-contact-element contact-element-three">
+                      <img class="contact-element-image" src="../assets/footer/poi.svg" alt="Location Icon">
+                      <div class="contact-element-text">
+                          Maulana Azad National Institute Of Technology, Bhopal
+                      </div>
+                  </div>
+                  <div class="footer-one-social">
+                    <div class="footer-social-element">
+                        <a href="https://twitter.com/ecell_nitb" target="_blank" class="footer-social-link">
+                            <img src="../assets/footer/twitter.svg" alt="Twitter" class="footer-social-image">
+                        </a>
+                    </div>
+                    <div class="footer-social-element">
+                        <a href="https://www.facebook.com/ecellnitbhopal/" class="footer-social-link" target="_blank">
+                            <img src="../assets/footer/fb.svg" alt="Facebook" class="footer-social-image">
+                        </a>
+                    </div>
+                    <div class="footer-social-element">
+                        <a href="https://www.instagram.com/ecell_nitb/" class="footer-social-link" target="_blank">
+                            <img src="../assets/footer/insta.svg" alt="Instagram" class="footer-social-image">
+                        </a>
+                    </div>
+                    <div class="footer-social-element">
+                        <a href="https://www.linkedin.com/company/ecell-manit" class="footer-social-link" target="_blank">
+                            <img src="../assets/footer/linkedIn.svg" alt="Linkedin" class="footer-social-image">
+                        </a>
+                    </div>
+                    <div class="footer-social-element">
+                      <a href="https://www.youtube.com/@EntrepreneurshipCellNITBhopal" class="footer-social-link" target="_blank">
+                          <img src="../assets/footer/youtube (4).png" alt="youtube" class="footer-social-image" id="yt">
+                      </a>
+                    </div>
+                    
+                   
+        
+                </div>
+              </div>
+              
+        </div>
+  
+        <div class="footer-two">
+              <h2 class="footer-head footer-two-head">Write to us</h2>
+              <form class="footer-form" id="fotform">
+                  <div class="footer-input">
+                      <input type="text" name="name" id="foot-name" placeholder="Full Name">
+                  </div>
+                  <div class="footer-input">
+                      <input type="email" name="email" id="foot-email" placeholder="E-Mail">
+                  </div>
+                  <div class="footer-input">
+                      <textarea name="message" id="foot-message" rows="2" placeholder="Message"></textarea>
+                  </div>
+                  <br>
+                  <div class="button-wrapper">
+                      <button class="footer-form-submit-button" type="submit">SUBMIT</button>
+                  </div>
+              </form>
+        </div>
+    
+      <div class="footer-three">
+              <h2 class="footer-head footer-three-head">Instagram Feed</h2>
+              <div class="footer-three-posts">
+                  <div class="instagram-posts">
+                    <a href="https://www.instagram.com/p/DBlguoXvziq/?igsh=dWRrOXJqNXh3Y3Vw">
+                      <img src="assets/footer/pe charcha guest1.jpg" alt="E-Cell-Post" class="instagram-post-image">
+                  </a>
+                    
+                  </div>
+                  <div class="instagram-posts">
+                    <a href="https://www.instagram.com/p/DBOYm7OPAju/?igsh=MWhka3I0ZHd6Mndwdg==">
+                      <img src="assets/footer/SSSD.png" alt="E-Cell-Post" class="instagram-post-image">
+                  </a>
+                     
+                  </div>
+                  <div class="instagram-posts">
+                    <a href="https://www.instagram.com/p/C_zwuHpo2pV/?igsh=dDdxaHRscGJzaTdn">
+                      <img src="assets/footer/GUEST[1.2]-01.png" alt="E-Cell-Post" class="instagram-post-image">
+                  </a>
+                      
+                  </div>
+                  <div class="instagram-posts">
+                      
+                  </div>
+                  <div class="instagram-posts">
+                      
+                  </div>
+                  <div class="instagram-posts">
+                      
+                  </div>
+              </div>
+      </div>
+    </section>
+    <!--FOOTER ENDS HERE-->
     </main>
   </body>
 </html>
