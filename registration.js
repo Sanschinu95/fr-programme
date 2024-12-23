@@ -2,6 +2,11 @@
 document.getElementById('frForm').addEventListener('submit', async function (event) {
     event.preventDefault(); // Prevent default form submission
 
+    const submitButton = document.getElementById('submitButton');
+    const originalText = submitButton.textContent; // Save the original button text
+    submitButton.disabled = true; // Disable the button
+    submitButton.textContent = 'Wait...'; // Change button text to "Wait..."
+
     const formData = {
         name: document.getElementById('name').value,
         email: document.getElementById('email').value,
@@ -26,8 +31,6 @@ document.getElementById('frForm').addEventListener('submit', async function (eve
             alert('Form submitted successfully! ');
             document.getElementById('frForm').reset();
             window.location.href = 'https://chat.whatsapp.com/KHcLQFzb09TF7oZMgOgoQm';
-            
-            
         } else {
             document.getElementById('frForm').reset();
             alert('Error submitting form. Please try again.');
@@ -36,5 +39,8 @@ document.getElementById('frForm').addEventListener('submit', async function (eve
         console.error('Error:', error);
         document.getElementById('frForm').reset();
         alert('An error occurred. Please try again.');
+    } finally {
+        submitButton.disabled = false; // Re-enable the button
+        submitButton.textContent = originalText; // Restore the original button text
     }
 });
