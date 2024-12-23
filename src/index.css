@@ -161,9 +161,20 @@
 
 #registration-area{
     display: flex;
+ 
     justify-content: center;
     align-items: center;
+   
     
+
+}
+
+.reg-illustration{
+    /* background-image: url(../assets/registration-form/4967621.jpg); */
+    height: 40%;
+    width: 40%;
+    /* z-index: 100;
+    background-color: #005FED; */
 }
 
 #registration-form{
@@ -175,6 +186,7 @@
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    padding: 4rem;
     
     /* h1{
         margin-bottom: 2.5rem;
@@ -217,7 +229,7 @@
         width: 100%;
         background-color: white;
         padding: 0rem 1.75rem;
-        border: 2px solid #7B2C2D;
+        border: 2px solid #8939a2;
         border-radius: 0.75rem;
 
         label{
@@ -252,7 +264,7 @@
         padding: 0.8rem 2.5rem;
         border: none;
         border-radius: 0.35rem;
-        background-color: #7B2C2D;
+        background-color: #8939a2;
         color: white;
         font-weight: 600;
         display: flex;
