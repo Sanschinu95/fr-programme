@@ -18,6 +18,7 @@ document.getElementById('frForm').addEventListener('submit', async function (eve
         experience: document.getElementById('experience').value,
     };
 
+
     try {
         const response = await fetch('https://server.ecellnitb.in/fr', {
             method: 'POST',
