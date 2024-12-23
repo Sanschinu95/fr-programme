@@ -29,7 +29,7 @@ document.getElementById('frForm').addEventListener('submit', async function (eve
         });
 
         if (response.ok) {
-            alert('Form submitted successfully! ');
+            alert('Form submitted successfully! Click OK to Join the Whatsapp Group');
             document.getElementById('frForm').reset();
             window.location.href = 'https://chat.whatsapp.com/KHcLQFzb09TF7oZMgOgoQm';
         } else {
