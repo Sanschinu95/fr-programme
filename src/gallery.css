@@ -4,22 +4,22 @@
     justify-content: center;
     align-items: center;
     gap: 3.5rem;
-    height: 75vh;
-    
+    height: 85vh;
+    background: linear-gradient(to bottom,#1A0D29, #2b0f37, #5b124d,#DA70D6,#fff);
     
   }
   .slider-container {
     width: 100%;
     max-width: 100%;
     overflow: hidden; 
-    background: rgba(0,0,0,1);
+    background: rgba(0,0,0,0);
     padding: 30px;
     position: relative;
   }
 
 
   .gallery-heading{
-    color: black;
+    color: white;
     font-size: 2.88rem;
     font-weight: 600;
     
@@ -28,11 +28,12 @@
 .slider-track {
     display: flex;
     animation: scroll 15s linear infinite;
+    translate: 0 -40px;
   }
 
   .slider-track img {
     width: 300px; 
-    height: auto; 
+    height: auto;
     margin: 0 5px;
     transition: transform 1s, z-index 0s 1s; 
   }
