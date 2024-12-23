@@ -54,7 +54,7 @@ nav{
             text-wrap: nowrap;
             height: 100%;
             &:hover{
-                color: #953B7A;
+                color: #9F0102;
             }
         }
         .contact-us-nav{
@@ -111,7 +111,7 @@ nav{
     &:nth-child(3){
         transform: translateY(50%);
     }
-    background-color: #953B7A;
+    background-color: #9F0102;
 }
 
 .cross-bar-1{
@@ -138,8 +138,8 @@ nav{
     /* padding-top: 3rem; */
     
     ul#nav-links-mobile{
-        border-top: 2px solid #953B7A;
-        border-bottom: 2px solid #953B7A;
+        border-top: 2px solid #9F0102;
+        border-bottom: 2px solid #9F0102;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -158,8 +158,9 @@ nav{
             align-items: center;
             width: 100%;
             height: 3rem;
+            color:white;
             &:hover{
-                color: #953B7A;
+                color: #9F0102;
             }
         }
     }
