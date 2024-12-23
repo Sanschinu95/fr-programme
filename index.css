@@ -107,7 +107,7 @@
 }
 
 .glowing-text{
-    color: #E50914;
+    color: #953B7A;
 }
 
 .button-container {
@@ -120,7 +120,7 @@
   
   .custom-button {
     background-color: #E6E6FA; 
-    color: #E50914;           
+    color: #953B7A;           
     font-size: 16px;
     font-weight: bold;
     padding: 10px 20px;
@@ -264,7 +264,7 @@
         padding: 0.8rem 2.5rem;
         border: none;
         border-radius: 0.35rem;
-        background-color: #8939a2;
+        background-color: #953B7A;
         color: white;
         font-weight: 600;
         display: flex;
@@ -413,7 +413,7 @@ div.footer-input>textarea {
 
 button.footer-form-submit-button {
    
-    border: 1px solid #E50914;;
+    border: 1px solid #953B7A;;
     border-radius: 0.75rem;
     width: 7.35713rem;
     height: 2.0625rem;
@@ -432,11 +432,11 @@ div.footer-input>textarea:focus,
 div.footer-input>input:focus {
     border: none;
     outline: none;
-    border-bottom: 1px solid  #E50914;
+    border-bottom: 1px solid  #953B7A;
 }
 
 button.footer-form-submit-button:hover {
-    background-color:#E50914;
+    background-color:#953B7A;
     color:white;
    
     transition: all 0.3s ease-in-out;
@@ -474,7 +474,7 @@ div.instagram-posts {
 }
 div.instagram-posts:hover{
     transform: scale(1.1);
-    border: 0.11px solid #E50914;
+    border: 0.11px solid #953B7A;
 }
 
 .footer-social-element{
@@ -686,7 +686,7 @@ div.footer-one-social {
     }
 
     button.footer-form-submit-button {
-        border: 1px solid #E50914;
+        border: 1px solid #953B7A;
         border-radius: 0.75rem;
         width: 6.35713rem;
         height: 1.8625rem;
@@ -709,7 +709,7 @@ div.footer-one-social {
     }
     
     button.footer-form-submit-button {
-        border: 1px solid #E50914;
+        border: 1px solid #953B7A;
         border-radius: 0.45rem;
         width: 4.55713rem;
         height: 1.2625rem;
