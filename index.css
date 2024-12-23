@@ -30,7 +30,7 @@
     background-size: cover;
     min-height: 100vh;
     font-family: Benguiat;
-    text-shadow:  0px 4px 4px  #ffffff40;
+    text-shadow:  0px 4px 4px  #14121240;
     z-index: 1; 
     overflow: hidden; 
     
@@ -520,6 +520,13 @@ div.footer-one-social {
     width: 28px;
 }
 
+.inp-element{
+    img{
+        height: 25px;
+        width: 25px;
+    }
+}
+
 
 
 @media (max-width: 1060px){
@@ -660,6 +667,7 @@ div.footer-one-social {
     }
     #registration-form {
         & .inp-element {
+            height: 2.5rem;
             & input {
                 font-size: 1.06rem;
                 padding: 0rem;
@@ -668,8 +676,18 @@ div.footer-one-social {
                 height: 100%;
             }
         }
+    
     }
-   
+    .inp-element{
+        img{
+            height: 19px;
+            width: 19px;
+        }
+    }
+    #reg-head{
+        text-align: center;
+        font-size: 1.8rem;
+    }
     
         
     
@@ -740,6 +758,10 @@ div.footer-one-social {
         width: 4.55713rem;
         height: 1.2625rem;
         font-size: 0.4075rem;
+        }
+        #reg-head{
+            text-align: center;
+            font-size: 1.5rem;
         }
 }
     
