@@ -23,8 +23,11 @@ document.getElementById('frForm').addEventListener('submit', async function (eve
         });
 
         if (response.ok) {
-            alert('Form submitted successfully!');
+            alert('Form submitted successfully! ');
             document.getElementById('frForm').reset();
+            window.location.href = 'https://chat.whatsapp.com/KHcLQFzb09TF7oZMgOgoQm';
+            
+            
         } else {
             document.getElementById('frForm').reset();
             alert('Error submitting form. Please try again.');
